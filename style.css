@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px; /**evita bordas brancas na página**/
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%);
+    background-repeat: no-repeat; 
+    /* no repeat é utilizado para não repetir o gradiente de cor, utilizando uma só, pra que ele fique esmaecendo */
+    
+
+}
+#main{
+    width: 100%;
+    height: 90px;
+    background-color: #303030;
+    border-bottom: 3px solid #0C70F280;
+}
+#header{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30.26px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-around; 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    
+}
+button{
+    width: 80px;
+    height: 39px;
+    margin-left: 600px;
+    margin-right: 25px;
+    background-color: royalblue;
+    color: aliceblue;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+}
+#header a:hover{
+    color: #686565;
+}
+
+
